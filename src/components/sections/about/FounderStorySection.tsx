@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const FounderStorySection = () => {
   return (
-    <section className="bg-stone-500 py-20 px-6 md:px-12">
+    <section className="bg-stone-100 dark:bg-stone-800 py-20 px-6 md:px-12">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-12">
         <div className="relative w-full h-96 md:w-1/2 rounded-lg overflow-hidden shadow-lg">
           <Image
@@ -17,7 +17,7 @@ export const FounderStorySection = () => {
           <h2 className="text-3xl font-bold text-amber-300 mb-4">
             Hi, I'm Ariadna
           </h2>
-          <p className="text-white/80 leading-relaxed">
+          <p className="dark:text-white/80 text-neutral-800 leading-relaxed">
             I started Golden Sol with one mission: to help people feel
             confident, glowing, and radiant — without the hassle of visiting a
             salon.

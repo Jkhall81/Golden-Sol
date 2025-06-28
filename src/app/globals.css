@@ -1,6 +1,6 @@
 @import "tailwindcss";
 
-@layer base {
+/* @layer base {
   :root {
     @apply bg-stone-50 text-stone-900;
   }
@@ -8,7 +8,9 @@
   .dark {
     @apply bg-stone-950 text-stone-100;
   }
-}
+} */
+
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --color-background: var(--background);

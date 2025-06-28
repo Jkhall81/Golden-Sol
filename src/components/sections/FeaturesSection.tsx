@@ -3,7 +3,7 @@ import { FeatureCard } from "../ui/FeatureCard";
 
 export const FeaturesSection = () => {
   return (
-    <section className="py-20 px-6 md:px-12 mb-18">
+    <section className="py-20 px-6 md:px-12 pb-[100px]">
       <div className="max-w-7xl mx-auto">
         <h2 className="text-4xl md:text-5xl font-bold text-amber-300 text-center mb-16">
           Why Golden Sol?

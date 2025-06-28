@@ -17,7 +17,7 @@ const features = [
 
 export const TrustFeaturesSection = () => {
   return (
-    <section className="bg-stone-400 py-20 px-6 md:px-12">
+    <section className="bg-stone-100 dark:bg-stone-800 py-20 px-6 md:px-12">
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl font-bold text-amber-300 mb-12">
           Why Choose Golden Sol?
