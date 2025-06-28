@@ -1,13 +1,16 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export const Logo = () => {
   return (
-    <Image
-      src="/logoipsum-339.png"
-      height={65}
-      width={65}
-      alt="logo"
-      className=""
-    />
+    <Link href="/">
+      <Image
+        src="/logoipsum-339.png"
+        height={45}
+        width={45}
+        alt="logo"
+        className=""
+      />
+    </Link>
   );
 };

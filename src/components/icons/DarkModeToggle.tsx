@@ -4,7 +4,11 @@
 import { useEffect, useState } from "react";
 import { BsSunFill, BsMoonStarsFill } from "react-icons/bs";
 
-export default function DarkModeToggle() {
+interface Props {
+  highlight?: boolean;
+}
+
+export default function DarkModeToggle({ highlight = false }: Props) {
   const [isDark, setIsDark] = useState(false);
   const [mounted, setMounted] = useState(false);
 
@@ -33,7 +37,9 @@ export default function DarkModeToggle() {
     <button
       onClick={toggle}
       aria-label="Toggle Dark Mode"
-      className="p-2 rounded-md text-xl text-foreground transition hover:bg-foreground/10 cursor-pointer"
+      className={`p-2 rounded-md text-xl transition hover:bg-foreground/10 cursor-pointer ${
+        highlight ? "text-amber-400 hover:text-amber-500" : "text-foreground"
+      }`}
     >
       {isDark ? <BsSunFill size={20} /> : <BsMoonStarsFill size={20} />}
     </button>
