@@ -24,8 +24,8 @@ export const FounderStorySection = () => {
             <br />
             <br />
             With years of experience in sunless tanning and a love for luxury
-            self-care, I created a mobile spray tan experience that&apos;s
-            clean, convenient, and customized just for you.
+            self-care, I created a mobile spray tan experience that is clean,
+            convenient, and customized just for you.
           </p>
         </div>
       </div>

@@ -11,9 +11,9 @@ export const ServicesHero = () => {
             Mobile Spray Tanning, Reimagined
           </h1>
           <p className="dark:text-white/80 text-neutral-800 text-lg leading-relaxed">
-            Skip the salon — we bring the glow to you. Whether you&apos;re
-            prepping for an event or just love feeling radiant, Golden Sol
-            delivers flawless tans tailored to your skin, schedule, and style.
+            Skip the salon — we bring the glow to you. Whether you are prepping
+            for an event or just love feeling radiant, Golden Sol delivers
+            flawless tans tailored to your skin, schedule, and style.
           </p>
         </div>
 
