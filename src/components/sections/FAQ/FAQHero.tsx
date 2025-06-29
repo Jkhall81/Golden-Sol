@@ -18,7 +18,7 @@ export const FAQHero = () => {
           <CTAButton text="Book Your Tan" href="/contact" styleType="amber" />
         </div>
         {/* Right Kanban-Style Grid */}
-        <div className="w-full md:w-1/2 grid grid-cols-2 grid-rows-2 gap-4 md:grid">
+        <div className="w-full md:w-1/2 grid hidden grid-cols-2 grid-rows-2 gap-4 md:grid">
           {/* Top Left */}
           <div className="relative rounded-xl overflow-hidden shadow-lg h-48 md:h-60">
             <Image
