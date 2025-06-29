@@ -7,7 +7,7 @@ const features = [
   },
   {
     title: "Tailored Experience",
-    desc: "Every tan is customized to your tone, preferences, and schedule — it's all about you.",
+    desc: "Every tan is customized to your tone, preferences, and schedule — it&apos;s all about you.",
   },
   {
     title: "Mess-Free Setup",

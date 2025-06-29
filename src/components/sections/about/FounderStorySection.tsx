@@ -15,7 +15,7 @@ export const FounderStorySection = () => {
         </div>
         <div className="md:w-1/2 text-white">
           <h2 className="text-3xl font-bold text-amber-300 mb-4">
-            Hi, I'm Ariadna
+            Hi, I&apos;m Ariadna
           </h2>
           <p className="dark:text-white/80 text-neutral-800 leading-relaxed">
             I started Golden Sol with one mission: to help people feel
@@ -24,8 +24,8 @@ export const FounderStorySection = () => {
             <br />
             <br />
             With years of experience in sunless tanning and a love for luxury
-            self-care, I created a mobile spray tan experience that’s clean,
-            convenient, and customized just for you.
+            self-care, I created a mobile spray tan experience that&apos;s
+            clean, convenient, and customized just for you.
           </p>
         </div>
       </div>
