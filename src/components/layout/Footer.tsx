@@ -40,23 +40,23 @@ export const Footer = () => {
         {/* Contact + Social */}
         <div>
           <h3 className="font-semibold text-amber-300 mb-2">Contact</h3>
-          <p className="text-sm text-white/70">Call/Text: (555) 123-4567</p>
-          <p className="text-sm text-white/70">Email: info@goldensol.com</p>
+          <p className="text-sm text-white/70">Call/Text: (480) 886-0881</p>
+          <p className="text-sm text-white/70">Email: goldensolaz@gmail.com</p>
           <div className="flex gap-4 mt-4 text-2xl text-amber-400">
             <a
-              href="https://instagram.com"
+              href="https://www.instagram.com/golden_solaz"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaInstagram />
             </a>
-            <a
+            {/* <a
               href="https://tiktok.com"
               target="_blank"
               rel="noopener noreferrer"
             >
               <FaTiktok />
-            </a>
+            </a> */}
           </div>
         </div>
       </div>

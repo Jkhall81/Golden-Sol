@@ -1,4 +1,6 @@
+import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export const ContactSection = () => {
   return (
@@ -21,22 +23,35 @@ export const ContactSection = () => {
           <p className="flex items-center justify-center gap-3">
             <FaPhoneAlt className="text-amber-500" />
             <a
-              href="tel:5551234567"
+              href="tel:4808860881"
               className="text-amber-500 hover:text-amber-400 transition"
             >
-              (555) 123-4567
+              (480) 886-0881
             </a>
           </p>
 
           <p className="flex items-center justify-center gap-3">
             <FaEnvelope className="text-amber-500" />
             <a
-              href="mailto:hello@goldensol.com"
+              href="mailto:goldensolaz@gmail.com"
               className="text-amber-500 hover:text-amber-400 transition"
             >
-              hello@goldensol.com
+              goldensolaz@gmail.com
             </a>
           </p>
+
+          <p className="flex items-center justify-center gap-3"></p>
+        </div>
+
+        {/* Contact Card Image */}
+        <div className="mt-12">
+          <Image
+            src="/contact_card.jpg"
+            alt="Golden Sol contact card"
+            width={500}
+            height={300}
+            className="rounded-xl shadow-lg mx-auto"
+          />
         </div>
       </div>
     </section>

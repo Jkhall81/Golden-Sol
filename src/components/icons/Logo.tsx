@@ -5,9 +5,9 @@ export const Logo = () => {
   return (
     <Link href="/">
       <Image
-        src="/logoipsum-339.png"
-        height={45}
-        width={45}
+        src="/real_logo.png"
+        height={125}
+        width={125}
         alt="logo"
         className=""
       />

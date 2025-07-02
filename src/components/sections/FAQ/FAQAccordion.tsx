@@ -1,38 +1,31 @@
-// components/sections/FAQAccordion.tsx
 "use client";
 
 import { useState } from "react";
 
 const faqs = [
   {
-    question: "How long does a spray tan last?",
-    answer:
-      "Most tans last 7–10 days with proper care. Hydration and gentle exfoliation help prolong your glow.",
+    question: "How should I prep days before my appointment?",
+    answer: `
+Well-hydrated skin tans more evenly. Make sure to drink plenty of water and apply moisturizers liberally in the days leading up to your tan.
+    `,
   },
   {
-    question: "What should I wear during the tan?",
-    answer:
-      "Whatever you’re comfortable in! Many clients opt for a swimsuit or undergarments. We also provide disposable options.",
+    question: "What should I do the day before my appointment?",
+    answer: `
+Shave or wax at least 24 hours in advance. Exfoliate thoroughly with an oil-free scrub, washcloth, or loofah. Closed pores help achieve an even tan.
+    `,
   },
   {
-    question: "Is spray tanning safe for all skin types?",
-    answer:
-      "Yes — we use skin-safe, DHA-based formulas that are suitable for all tones and sensitivities.",
+    question: "What should I do on the day of my tan?",
+    answer: `
+Avoid lotions, oils, deodorant, and makeup — your skin should be clean and barrier-free for the best results. Wear loose clothing and bring sandals or flip-flops for after your session.
+    `,
   },
   {
-    question: "How soon can I shower after my appointment?",
-    answer:
-      "It depends on your formula. Classic tans set in 8–12 hours; express tans can be rinsed in 1–3 hours.",
-  },
-  {
-    question: "Do I need to prep my skin before the tan?",
-    answer:
-      "Yes — exfoliate 24 hours before and avoid lotion, oils, or deodorant on tanning day for the best result.",
-  },
-  {
-    question: "Will the tan stain my clothes or furniture?",
-    answer:
-      "Nope! Our solution dries quickly and our techs ensure a clean, mess-free experience every time.",
+    question: "What should I wear during my appointment?",
+    answer: `
+Most women tan nude, but you can undress to your comfort level. If you choose to wear something, it should be similar to or smaller than your swimsuit to minimize tan lines. Men must wear underwear or swim bottoms.
+    `,
   },
 ];
 
@@ -43,7 +36,7 @@ export const FAQAccordion = () => {
     <section className="bg-stone-100 dark:bg-stone-900 py-20 px-6 md:px-12">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-3xl font-bold text-amber-300 mb-10 text-center">
-          Frequently Asked Questions
+          Spray Tan Prep & FAQs
         </h2>
         <div className="space-y-4">
           {faqs.map((faq, idx) => (
@@ -61,7 +54,7 @@ export const FAQAccordion = () => {
                 </span>
               </button>
               {openIndex === idx && (
-                <div className="px-6 pb-6 text-stone-600 dark:text-neutral-300">
+                <div className="px-6 pb-6 text-stone-600 dark:text-neutral-300 whitespace-pre-line">
                   {faq.answer}
                 </div>
               )}

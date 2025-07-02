@@ -6,11 +6,11 @@ import Image from "next/image";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 
 const images = [
-  "/image1.avif",
-  "/image2.avif",
-  "/image3.avif",
-  "/image4.avif",
-  "/image5.avif",
+  "/tanning_pic1.jpg",
+  "/tanning_pic4.jpg",
+  "/tanning_pic5.jpg",
+  "/tanning_pic6.jpg",
+  "/tanning_pic7.jpg",
 ];
 
 export const GalleryCarousel = () => {

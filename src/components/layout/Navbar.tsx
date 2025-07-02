@@ -38,7 +38,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className="fixed top-0 left-0 w-full backdrop-blur-md dark:bg-stone-800/40 bg-stone-100 border-b border-stone-800 z-50 flex justify-between items-center p-2 md:px-6 md:py-3">
+      <nav className="fixed top-0 left-0 h-[120px] w-full backdrop-blur-md dark:bg-stone-800/40 bg-stone-100 border-b border-stone-800 z-50 flex justify-between items-center md:px-6 md:py-3">
         <div className="ml-2">
           <Logo />
         </div>

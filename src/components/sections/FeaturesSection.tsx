@@ -17,7 +17,7 @@ export const FeaturesSection = () => {
             buttonHref="/contact"
           />
           <FeatureCard
-            image="/tanning2.jpg"
+            image="/tanning_pic8.jpg"
             title="Natural, Lasting Glow"
             description="Look radiant with our long-lasting formula that enhances your skin without the sun's damage."
             buttonText="See Gallery"

@@ -21,6 +21,12 @@ export const ServicesSection = () => {
         "Get glowing with friends. Great for parties, events, or bridal prep. Available for 3+ people.",
       price: "$40 per person",
     },
+    {
+      title: "Mobile Spray Tan Party",
+      description:
+        "Host a fun night with friends and enjoy luxury Brazilian-style spray tans from the comfort of your home. Minimum 4 guests required.",
+      price: "$55 per person",
+    },
   ];
 
   return (

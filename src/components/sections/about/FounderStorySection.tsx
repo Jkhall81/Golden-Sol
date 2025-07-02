@@ -18,14 +18,19 @@ export const FounderStorySection = () => {
             Hi, I&apos;m Ariadna
           </h2>
           <p className="dark:text-white/80 text-neutral-800 leading-relaxed">
-            I started Golden Sol with one mission: to help people feel
-            confident, glowing, and radiant — without the hassle of visiting a
-            salon.
+            I’m originally from Venezuela, and I started Golden Sol with my
+            daughter to share something special with our community.
             <br />
             <br />
-            With years of experience in sunless tanning and a love for luxury
-            self-care, I created a mobile spray tan experience that is clean,
-            convenient, and customized just for you.
+            Built on family values, hard work, and a passion for beauty, we’ve
+            created a business that offers more than just spray tans — it’s a
+            personal, luxury experience that celebrates your natural glow.
+            <br />
+            <br />
+            We specialize in Brazilian-style spray tans that are clean,
+            convenient, and customized to you — all from the comfort of your
+            home. Our mission is to help you feel confident, radiant, and
+            golden, inside and out.
           </p>
         </div>
       </div>
