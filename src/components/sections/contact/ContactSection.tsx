@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { FaPhoneAlt, FaEnvelope } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa";
 
 export const ContactSection = () => {
   return (

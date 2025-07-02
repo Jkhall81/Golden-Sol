@@ -11,7 +11,7 @@ export const ServicesHero = () => {
             Mobile Spray Tanning, Reimagined
           </h1>
           <p className="dark:text-white/80 text-neutral-800 text-lg leading-relaxed">
-            Skip the salon — we bring the glow to you. Whether you're prepping
+            Skip the salon — we bring the glow to you. Whether you are prepping
             for an event or just love feeling radiant, Golden Sol delivers
             flawless, Brazilian-style spray tans tailored to your skin,
             schedule, and style.

@@ -1,7 +1,7 @@
 // components/layout/Footer.tsx
 import Link from "next/link";
 import { Logo } from "../icons/Logo";
-import { FaInstagram, FaTiktok } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
 
 export const Footer = () => {
   return (
