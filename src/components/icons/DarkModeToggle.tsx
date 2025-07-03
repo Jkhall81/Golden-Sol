@@ -11,7 +11,7 @@ interface Props {
 export default function DarkModeToggle({ highlight = false }: Props) {
   const [isDark, setIsDark] = useState(false);
   const [mounted, setMounted] = useState(false);
-
+  console.log(mounted);
   useEffect(() => {
     setMounted(true);
     const systemPrefersDark = window.matchMedia(
