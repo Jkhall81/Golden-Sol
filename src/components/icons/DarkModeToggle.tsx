@@ -22,6 +22,7 @@ export default function DarkModeToggle({ highlight = false }: Props) {
       storedTheme === "dark" || (!storedTheme && systemPrefersDark);
 
     setIsDark(enabled);
+    document.documentElement.classList.toggle("dark", enabled);
   }, []);
 
   const toggle = () => {
@@ -30,8 +31,6 @@ export default function DarkModeToggle({ highlight = false }: Props) {
     document.documentElement.classList.toggle("dark", newTheme === "dark");
     setIsDark(!isDark);
   };
-
-  if (!mounted) return null;
 
   return (
     <button
