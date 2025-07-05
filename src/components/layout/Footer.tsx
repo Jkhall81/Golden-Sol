@@ -63,6 +63,18 @@ export const Footer = () => {
 
       <p className="text-center text-xs text-white/50 mt-10">
         &copy; {new Date().getFullYear()} Golden Sol. All rights reserved.
+        <br />
+        <span className="text-white/60">
+          Site by{" "}
+          <a
+            href="https://jason-hall.vercel.app/home"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="underline hover:text-white"
+          >
+            Jason Hall
+          </a>
+        </span>
       </p>
     </footer>
   );
