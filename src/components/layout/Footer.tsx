@@ -67,7 +67,7 @@ export const Footer = () => {
         <span className="text-white/60">
           Site by{" "}
           <a
-            href="https://jason-hall.vercel.app/home"
+            href="https://jason-hall.dev/home"
             target="_blank"
             rel="noopener noreferrer"
             className="underline hover:text-white"
