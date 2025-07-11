@@ -18,6 +18,9 @@ export const metadata: Metadata = {
   title: "Golden Sol",
   description:
     "Golden Sol offers luxury mobile spray tanning in Scottsdale, AZ. Get a flawless, custom airbrush tan at home. Book your glow-up today!",
+  icons: {
+    icon: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
