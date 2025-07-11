@@ -1,9 +1,0 @@
-# *
-User-agent: *
-Allow: /
-
-# Host
-Host: https://golden-sol-tanning.vercel.app
-
-# Sitemaps
-Sitemap: https://golden-sol-tanning.vercel.app/sitemap.xml
