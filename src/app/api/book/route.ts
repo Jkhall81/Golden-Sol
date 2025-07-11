@@ -9,7 +9,7 @@ export async function POST(req: Request) {
   try {
     await resend.emails.send({
       from: "Golden Sol <notifications@golden-sol-tanning.com>", // must match verified sender
-      to: "jason.kei.hall@gmail.com", // owner receives booking
+      to: "goldensolaz@gmail.com", // owner receives booking
       subject: "New Appointment Request",
       html: `
         <h2>New Appointment</h2>
