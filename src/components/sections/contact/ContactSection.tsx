@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 import { format } from "date-fns";
@@ -11,11 +11,13 @@ export const ContactSection = () => {
   const [date, setDate] = useState<Date | undefined>();
   const [time, setTime] = useState("");
   const [submitted, setSubmitted] = useState(false);
+  const [bookedTimes, setBookedTimes] = useState<string[]>([]);
 
   const allowedDays = [1, 2, 3, 6]; // Mon–Wed, Sat
 
   const getTimeOptions = () => {
     if (!date) return [];
+
     const day = date.getDay();
     const startHour = day === 6 ? 8 : 10;
     const endHour = 17;
@@ -25,8 +27,22 @@ export const ContactSection = () => {
       const suffix = hour >= 12 ? "PM" : "AM";
       const displayHour = hour % 12 === 0 ? 12 : hour % 12;
       return `${displayHour}:00 ${suffix}`;
-    });
+    }).filter((t) => !bookedTimes.includes(t));
   };
+
+  useEffect(() => {
+    if (!date) return;
+    const fetchAvailability = async () => {
+      const res = await fetch("/api/availability", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ date: format(date, "yyyy-MM-dd") }),
+      });
+      const data = await res.json();
+      setBookedTimes(data.bookedTimes || []);
+    };
+    fetchAvailability();
+  }, [date]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
