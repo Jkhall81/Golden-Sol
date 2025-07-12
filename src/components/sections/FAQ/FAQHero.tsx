@@ -15,7 +15,7 @@ export const FAQHero = () => {
             Got questions? We&apos;ve got answers. Here&apos;s everything you
             need to know before, during, and after your glow.
           </p>
-          <CTAButton text="Book Your Tan" href="/contact" styleType="amber" />
+          <CTAButton text="Book Your Tan" href="/book" styleType="amber" />
         </div>
         {/* Right Kanban-Style Grid */}
         <div className="w-full md:w-1/2 grid hidden grid-cols-2 grid-rows-2 gap-4 md:grid">

@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
 import { DayPicker } from "react-day-picker";
 import "react-day-picker/dist/style.css";
 import { format } from "date-fns";
@@ -12,6 +13,7 @@ export const ContactSection = () => {
   const [time, setTime] = useState("");
   const [submitted, setSubmitted] = useState(false);
   const [bookedTimes, setBookedTimes] = useState<string[]>([]);
+  const router = useRouter();
 
   const allowedDays = [1, 2, 3, 6]; // Mon–Wed, Sat
 
@@ -67,6 +69,7 @@ export const ContactSection = () => {
       const data = await res.json();
       alert(data.message || "Appointment submitted!");
       setSubmitted(true);
+      router.push("/");
     } catch (err) {
       console.error(err);
       alert("Error submitting appointment.");

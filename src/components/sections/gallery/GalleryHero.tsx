@@ -12,7 +12,7 @@ export const GalleryHero = () => {
           Take a look at the results — confident, radiant tans that speak for
           themselves.
         </p>
-        <CTAButton text="Book Your Tan" href="/contact" styleType="amber" />
+        <CTAButton text="Book Your Tan" href="/book" styleType="amber" />
       </div>
     </section>
   );

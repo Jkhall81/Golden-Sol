@@ -28,8 +28,8 @@ const links = [
     href: "/gallery",
   },
   {
-    title: "Contact",
-    href: "/contact",
+    title: "Book",
+    href: "/book",
   },
 ];
 

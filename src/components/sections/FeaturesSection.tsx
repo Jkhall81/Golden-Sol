@@ -14,7 +14,7 @@ export const FeaturesSection = () => {
             title="We Come to You"
             description="Enjoy a professional spray tan without stepping outside. We bring the glow to your doorstep."
             buttonText="Book Now"
-            buttonHref="/contact"
+            buttonHref="/book"
           />
           <FeatureCard
             image="/tanning_pic8.jpg"

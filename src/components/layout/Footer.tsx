@@ -32,7 +32,7 @@ export const Footer = () => {
               <Link href="/faq">FAQ</Link>
             </li>
             <li>
-              <Link href="/contact">Contact</Link>
+              <Link href="/book">Book</Link>
             </li>
           </ul>
         </div>

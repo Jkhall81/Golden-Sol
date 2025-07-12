@@ -62,7 +62,7 @@ export const ServicesSection = () => {
         <div className="text-center mt-16">
           <CTAButton
             text="Book Your Tan"
-            href="/contact"
+            href="/book"
             styleType="amber"
             length="wide"
           />

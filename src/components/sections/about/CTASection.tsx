@@ -11,7 +11,7 @@ export const CTASection = () => {
         Book your mobile spray tan today and get that flawless, sun-kissed look
         — without ever leaving home.
       </p>
-      <CTAButton text="Book Now" href="/contact" styleType="amber" />
+      <CTAButton text="Book Now" href="/book" styleType="amber" />
     </section>
   );
 };

@@ -34,7 +34,7 @@ export const Hero = () => {
             </p>
             <CTAButton
               text="Book Your Tan"
-              href="/contact"
+              href="/book"
               styleType="amber"
               length="wide"
             />
