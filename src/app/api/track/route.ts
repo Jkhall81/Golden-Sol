@@ -1,5 +1,6 @@
 import { NextRequest, NextResponse } from "next/server";
 import { db } from "@/lib/firebase";
+import { Timestamp } from "firebase-admin/firestore";
 
 export async function POST(req: NextRequest) {
   const forwarded = req.headers.get("x-forwarded-for");
@@ -12,7 +13,7 @@ export async function POST(req: NextRequest) {
     ip,
     userAgent,
     referer,
-    timestamp: new Date().toISOString(),
+    timestamp: Timestamp.now(),
     screen: body?.screen || null,
     page: body?.page || null,
     event: body?.event || null,
